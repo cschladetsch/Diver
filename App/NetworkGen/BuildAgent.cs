@@ -2,8 +2,11 @@
 {
     internal class BuildAgent : AssemblyProcess
     {
-        public BuildAgent(string asmName) : base(asmName)
+        public BuildAgent(string asmName)
+            : base(asmName)
         {
         }
     }
 }
+
+

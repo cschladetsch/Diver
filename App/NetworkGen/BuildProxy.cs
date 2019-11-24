@@ -2,7 +2,8 @@
 {
     internal class BuildProxy : AssemblyProcess
     {
-        public BuildProxy(string asmName) : base(asmName)
+        public BuildProxy(string asmName)
+            : base(asmName)
         {
         }
     }

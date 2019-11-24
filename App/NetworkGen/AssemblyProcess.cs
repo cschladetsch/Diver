@@ -6,7 +6,7 @@ namespace Pyro.NetworkGen
     {
         protected static NLog.Logger _Logger => NLog.LogManager.GetCurrentClassLogger();
 
-        public AssemblyProcess(string asmName)
+        protected AssemblyProcess(string asmName)
         {
             var asm = Assembly.LoadFile(asmName);
             foreach (var module in asm.GetModules())
