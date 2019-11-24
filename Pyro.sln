@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauLang", "Library\Language
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTau", "Test\TestTau\TestTau.csproj", "{304D8128-C1CD-479D-B03C-20343B51B2CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkGen", "App\NetworkGen\NetworkGen.csproj", "{E6CD36B6-157B-4B89-BCA0-AAAC0E56688A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

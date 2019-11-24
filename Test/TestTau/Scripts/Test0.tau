@@ -1,9 +1,6 @@
 ﻿
-namespace Melb0
+class Foo
 {
-    class Foo
-    {
-        string Name { get; }
-        int Sum(int a, int b);
-    }
+    string Name { get; set; }
+    int Sum(int a, int b);
 }
