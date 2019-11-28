@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common.cs" />
+    <Compile Include="FilteredVector3.cs" />
     <Compile Include="FlowBehaviour.cs" />
     <Compile Include="NetworkKernel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
