@@ -21,6 +21,7 @@ namespace Pyro.TestUnity
                 x.Update(1);
                 Console.WriteLine($"{x.Value}");
             }
+            
             for (var i = 0; i < 40; ++i)
             {
                 x.Update(0);

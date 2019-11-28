@@ -78,5 +78,11 @@
             outputHistory[1] = outputHistory[0];
             outputHistory[0] = newOutput;
         }
+
+        public void SetHistory(float x)
+        {
+            inputHistory[0] = inputHistory[1] = x;
+            outputHistory[0] = outputHistory[1] = outputHistory[2] = x;
+        }
     }
 }
