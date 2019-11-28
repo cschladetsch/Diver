@@ -45,7 +45,7 @@
         private void SetupPeer()
         {
             _peer.OnConnected += OnConnected;
-            //_peer.OnReceivedRequest += (client, text) => WriteLine(text, ConsoleColor.Magenta);
+            _peer.OnReceivedRequest += (client, text) => WriteLine(text, ConsoleColor.Magenta);
         }
 
         private bool StartPeer(string[] args)
